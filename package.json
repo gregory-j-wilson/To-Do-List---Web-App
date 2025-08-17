@@ -1,24 +1,16 @@
 {
-  "name": "todo-app-vercel",
+  "name": "todo-app",
   "version": "1.0.0",
-  "description": "Full-stack Todo App with Supabase + Vercel",
   "type": "module",
   "scripts": {
     "dev": "vercel dev",
-    "build": "echo 'No build step needed'",
+    "build": "echo 'No build step required'",
     "start": "vercel dev"
   },
-  "keywords": ["todo", "vercel", "supabase", "postgresql"],
-  "author": "Your Name",
-  "license": "MIT",
   "dependencies": {
     "@supabase/supabase-js": "^2.39.0"
   },
-  "devDependencies": {
-    "@vercel/node": "^3.0.0",
-    "vercel": "^32.0.0"
-  },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=18.x"
   }
 }
