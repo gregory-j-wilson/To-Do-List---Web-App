@@ -1,7 +1,0 @@
-{
-  "functions": {
-    "api/todos.js": {
-      "runtime": "nodejs22.x"
-    }
-  }
-}
