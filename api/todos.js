@@ -1,4 +1,6 @@
 // api/todos.js - Supabase serverless function for Vercel
+console.log('Node.js version:', process.version);
+
 import { createClient } from '@supabase/supabase-js';
 
 // Initialize Supabase client
