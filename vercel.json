@@ -1,18 +1,7 @@
 {
-  "version": 2,
   "functions": {
     "api/todos.js": {
-      "runtime": "@vercel/node@20.x"
+      "runtime": "nodejs22.x"
     }
-  },
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ]
+  }
 }

@@ -1,16 +1,13 @@
 {
   "name": "todo-app",
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vercel dev",
-    "build": "echo 'No build step required'",
-    "start": "vercel dev"
+    "build": "echo 'Static site, no build needed'"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.0"
   },
   "engines": {
-    "node": ">=18.x"
+    "node": "22.x"
   }
 }
